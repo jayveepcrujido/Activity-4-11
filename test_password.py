@@ -14,7 +14,7 @@ class TestPasswordStrength(unittest.TestCase):
         self.assertEqual(check_password_strength("abc"), "Weak")
 
     def test_no_input(self):
-        self.assertEqual(check_password_strength(""), "Whitespace is Invalid")
+        self.assertEqual(check_password_strength(""), "No Input")
 
 
 if __name__ == "__main__":
