@@ -14,4 +14,3 @@ def check_password_strength(password):
         return "Medium"
     else:
         return "Weak"
-    
