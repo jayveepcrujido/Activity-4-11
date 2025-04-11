@@ -1,5 +1,6 @@
 import re
 
+
 def check_password_strength(password):
     length = len(password) >= 8
     upper = re.search(r'[A-Z]', password)
@@ -13,3 +14,4 @@ def check_password_strength(password):
         return "Medium"
     else:
         return "Weak"
+
