@@ -3,7 +3,7 @@ import re
 
 def check_password_strength(password):
     if len(password) <= 0:
-        return "White Space is Invalid"
+        return "Whitespace is Invalid"
     else:
         length = len(password) >= 8
         upper = re.search(r'[A-Z]', password)
